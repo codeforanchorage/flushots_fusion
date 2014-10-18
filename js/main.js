@@ -9,11 +9,11 @@
 		// DOM ID of where the Google Map is to be rendered
 		domid:'map',
 		// Google Fusion Tables SQL-like query string for flu shot location data
-		eventquery:'SELECT * FROM 1leqPq9hrsGhnE8NoT00YZn1ITTzhK6BhrF8LNL4',
+		eventquery:'SELECT * FROM 11CnqDfXWVdTiFTg76rMMyz-yKcbCYm8SNCCwAY8B',
 		// Google Fusion Tables URI
 		fturl:'https://www.googleapis.com/fusiontables/v1/query',
 		// Google maps API key
-		googlemapsapikey:'AIzaSyDRVus9kkg8mr6M7EZUmXZsdoM7JSFbvC8',
+		googlemapsapikey:'AIzaSyCTipnXbhVBbDK6gXem0IE9CWQ_XBPXJrQ',
 		// Icon for other for-fee events
 		iconfee:'/img/red.png',
 		// Icon for Free events
@@ -52,7 +52,7 @@
 		zoomaddress:14
 	};
 	
-	/* 
+	/*
 	 * jQuery's 'on document ready' function
 	 * Run this after the DOM is fully loaded.
 	 */
@@ -74,7 +74,7 @@
 		 * The Flushot application object
 		 */
 		var Flu = new Flushots(Default.infoboxoptions);
-		
+
 		var LegendDiv = document.createElement('div');
 		Flu.setMapLegend(LegendDiv,Map,Flu,Default);
 		LegendDiv.index = 1;
