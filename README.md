@@ -1,5 +1,5 @@
 ORIGINAL README:
-----------------
+================
 
 I have again partnered with the Chicago Department of Public Health (CDPH) to
 create an updated flu shot finder web application. Currently it has all the
@@ -14,7 +14,7 @@ thanks to Raed Mansour, Dr. Julie Morita, and Commissioner Dr. Bechara Choucair
 (all with CDPH) for being great to work with.
 
 NOTES:
-=====
+------
 
 - This a HTML/CSS/JavaScript web application. It does have one small PHP file
 to construct an iCal file for users who want a calendar reminder of one-off
